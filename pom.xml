@@ -30,7 +30,6 @@
         </dependency>
     </dependencies>
     <build>
-        <pluginManagement>
             <plugins>
 <!--                <plugin>-->
 <!--                    <groupId>org.apache.maven.plugins</groupId>-->
@@ -40,14 +39,14 @@
 <!--                        <dependency>-->
 <!--                            <groupId>com.puppycrawl.tools</groupId>-->
 <!--                            <artifactId>checkstyle</artifactId>-->
-<!--                            <version>8.41.1</version>-->
+<!--                            <version>LATEST</version>-->
 <!--                        </dependency>-->
 <!--                    </dependencies>-->
 <!--                </plugin>-->
                 <plugin>
                     <groupId>org.jacoco</groupId>
                     <artifactId>jacoco-maven-plugin</artifactId>
-                    <version>0.8.6</version>
+                    <version>0.8.7</version>
                     <executions>
                         <execution>
                             <goals>
@@ -64,6 +63,5 @@
                     </executions>
                 </plugin>
             </plugins>
-        </pluginManagement>
     </build>
 </project>
